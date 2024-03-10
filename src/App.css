@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .chetan {
+    font-size: 35px;
+    text-align: center;
+  }
+  .logoImg {
+    display: none;
+  }
+
+  .navigation {
+    transform: translateX(100px);
+  }
+  .icons {
+    transform: translateX(20px) translateY(-40px);
+  }
+  .nameSection {
+    transform: translateX(20px);
+  }
+}

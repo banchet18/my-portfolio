@@ -1,0 +1,48 @@
+.aboutDiv {
+  position: absolute;
+  color: white;
+  top: 74px;
+
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.box1span {
+  padding: 5px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.box1span:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  border-bottom: 2px solid rgb(148, 241, 8);
+}
+.box2 {
+  height: 79vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.box2first {
+  width: 400px;
+}
+.box2first img {
+  border-radius: 50%;
+}
+.box2second {
+  width: 800px;
+  font-size: 22px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
